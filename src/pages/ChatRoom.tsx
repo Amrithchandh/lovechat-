@@ -53,7 +53,7 @@ const ChatRoom: React.FC = () => {
   };
 
   return (
-    <div className="flex-1 flex flex-col md:flex-row h-full max-w-[1600px] mx-auto w-full glass md:my-4 md:rounded-[2.5rem] md:shadow-2xl overflow-hidden self-center border-white/20">
+    <div className="flex-1 flex flex-col md:flex-row h-full w-full bg-white/30 backdrop-blur-xl overflow-hidden border-t border-white/20">
       
       {/* Sidebar - Desktop Only or Overlay */}
       <div className="hidden md:flex w-80 border-r border-white/20 flex-col bg-white/30 backdrop-blur-md">
